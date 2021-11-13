@@ -8,7 +8,7 @@ _This is a simple To Do List app, where you can create your own account, and cre
 - [Requeriments](#requeriments-)
 - [Install and Run the project](#Install-and-Run-the-project-)
 - [Deploy](#Deploy-)
-- [Builded in](#builded-in-%EF%B8%8F)
+- [Built in](#built-in-%EF%B8%8F)
 - [Autor](#autor-%EF%B8%8F)
 
 ## Starting 🚀
@@ -70,7 +70,7 @@ _This project was deployment on heroku. You can see it here:_
 
 - [To Do List](http://www.herokulink/)
 
-## Builded in 🛠️
+## Built in 🛠️
 
 - [Django](http://www.djangoproject.com/)
 - [Python](https://www.python.org/)
