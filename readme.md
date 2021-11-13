@@ -22,7 +22,7 @@ git commit -m <"message">
 git push origin master
 ```
 
-### Requeriments 📋
+## Requeriments 📋
 
 _This project uses python 3.9.5, don't tested yet on other versions of python._
 _Also, you need to have installed Postgresql to make database connection._
@@ -33,7 +33,7 @@ _To install all dependencies necessary to run the project on your local developm
 pip install -r .\requirements.txt
 ```
 
-### Install and Run the project 🔧
+## Install and Run the project 🔧
 
 _1.- Create your own database file._
 _2.- To run the project, you have to create your own .env file to hidden your secret keys and DateBase connection, put debug=1 on local, or 0 if you want to deploy on production._
