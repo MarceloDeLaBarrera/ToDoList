@@ -4,7 +4,7 @@ _This is a simple To Do List app, where you can create your own account, and cre
 
 ## Table of contents
 
-- [Starting](#starting-🚀)
+- [Starting](#starting#🚀)
 - [Requeriments](#requeriments-📋)
 - [Install and Run the project](#Install-and-Run-the-project)
 - [Deploy](#Deploy)
