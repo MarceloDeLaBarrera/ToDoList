@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+</head>
+
+<body>
+    {% block content %}
+    <div class="header-bar">
+        <a href="{% url 'tasks' %}">
+            <h>&#8592;</h> Go Back
+        </a>
+    </div>
+
+    <div class="class form-body">
+        <form method="POST" action="">{% csrf_token %}
+            {{form.as_p}}
+            <input class="button" type="submit" value="Submit">
+        </form>
+    </div>
+
+
+    {% endblock %}
+</body>
+
+</html>
