@@ -4,25 +4,24 @@ _This is a simple To Do List app, where you can create your own account, and cre
 
 ## Table of contents
 
-- [Requeriments](#requeriments)
-- [Starting](#starting)
+- [Starting](#starting-🚀)
+- [Requeriments](#requeriments-📋)
 - [Install and Run the project](#Install-and-Run-the-project)
 - [Deploy](#Deploy)
 - [Builded in](#Builded-in)
 - [Autor](#Autor)
 - [Setup](#setup)
 
-## Starting
+## Starting 🚀
 
 _Fork the project to your profile, and then clone to your local machine._
 
-...
-
+```
 git clone <repo-link>
 git add .
 git commit -m <"message">
 git push origin master
-...
+```
 
 ### Requeriments 📋
 
@@ -60,10 +59,9 @@ python manage.py migrate
 
 _4. Finally, run server on your local machine._
 
-...
+```
 
 python manage.py runserver
-
 ```
 
 ## Deploy 📦
@@ -72,7 +70,6 @@ _This project was deployment on heroku. You can see it here:_
 
 - [To Do List](http://www.herokulink/)
 
-
 ## Builded in 🛠️
 
 - [Django](http://www.djangoproject.com/)
@@ -80,9 +77,6 @@ _This project was deployment on heroku. You can see it here:_
 - [HTML](https://)
 - [CSS](http://)
 
-
 ## Autor ✒️
 
-- **Marcelo De La Barrera**  - [marcelodelabarrera](https://github.com/marcelodelabarrera)
-
-```
+- **Marcelo De La Barrera** - [marcelodelabarrera](https://github.com/marcelodelabarrera)
