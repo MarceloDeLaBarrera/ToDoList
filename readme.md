@@ -61,7 +61,6 @@ python manage.py migrate
 _4. Finally, run server on your local machine._
 
 ```
-
 python manage.py runserver
 ```
 
