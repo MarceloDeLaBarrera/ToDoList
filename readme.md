@@ -8,8 +8,8 @@ _This is a simple To Do List app, where you can create your own account, and cre
 - [Requeriments](#requeriments-)
 - [Install and Run the project](#Install-and-Run-the-project-)
 - [Deploy](#Deploy-)
-- [Builded in](#Builded-in-)
-- [Autor](#Autor-)
+- [Builded in](#builded-in-%EF%B8%8F)
+- [Autor](#autor-%EF%B8%8F)
 
 ## Starting 🚀
 
