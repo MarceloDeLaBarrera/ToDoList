@@ -15,7 +15,7 @@ _This is a simple To Do List app, where you can create your own account, and cre
 
 _This project was deployment on heroku. You can see it here:_
 
-- [To Do List](http://www.herokulink/)
+- [To Do List](https://to-do-list-marcelo.herokuapp.com/)
 
 ## Screenshot ⭐
 ![image](https://user-images.githubusercontent.com/52224826/141669727-2fd7a92f-c330-41ad-9f12-8835d65eae6f.png)
