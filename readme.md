@@ -46,7 +46,7 @@ pip install -r .\requirements.txt
 ## Install and Run the project 🔧
 
 _1.- Create your own database file._
-_2.- To run the project, you have to create your own .env file to hidden your secret keys and DateBase connection.
+_2.- To run the project, you have to create your own .env file to hidden your secret keys and DateBase connection._
 
 _Note: Put debug=1 on local, or 0 on production._
 
