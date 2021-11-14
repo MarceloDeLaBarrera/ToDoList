@@ -3,13 +3,12 @@
 import os
 import sys
 import dotenv
-from django.conf import settings
 
 
 def main():
     """Run administrative tasks."""
-    # if os.environ.get("DJANGO_SETTINGS_MODULE") == "ToDoList.settings.settings":
-    # dotenv.read_dotenv()
+    if os.environ.get("DJANGO_SETTINGS_MODULE") == "ToDoList.settings.settings":
+        dotenv.read_dotenv()
     os.environ.setdefault('DJANGO_SETTINGS_MODULE',
                           'ToDoList.settings.production_settings')
     try:
