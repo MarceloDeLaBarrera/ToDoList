@@ -1,0 +1,216 @@
+body {
+    background-color: "#FAFAFA";
+    font-family: 'Karla', sans-serif;
+    padding-top: 50px;
+}
+
+
+a,
+p {
+    color: #4b5156
+}
+
+a {
+    font-weight: 600;
+}
+
+.container {
+    max-width: 650px;
+    margin: auto;
+    background-color: #fff;
+    -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+    box-shadow: 6px 6px 20px -4px rgba(0, 0, 0, 0.21);
+}
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px 5px 0 0;
+    background: linear-gradient(90deg, #397c1a 0%, #6feb80 43%, #6febe1 100%);
+}
+
+.header-bar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.task-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr auto;
+    grid-template-rows: repeat(2, 20px);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #dfe4ea;
+    overflow: hidden;
+
+
+}
+
+.task-title {
+    display: flex;
+    align-items: center;
+
+}
+
+.task-title a {
+    text-decoration: none;
+    color: #4b5156;
+    margin-left: 10px;
+
+
+}
+
+.delete-link {
+    margin-bottom: 7px;
+
+}
+
+.delete-link a {
+    text-decoration: none;
+    color: #cf4949;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.update-link a {
+    text-decoration: none;
+
+}
+
+
+.task-complete-icon {
+    height: 22px;
+    width: 22px;
+    background-color: rgb(105, 192, 105);
+    border-radius: 50%;
+}
+
+.task-incomplete-icon {
+    height: 22px;
+    width: 22px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 50%;
+}
+
+
+.plus-icon {
+    color: #49cf50;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 0;
+    padding-left: 10px;
+
+}
+
+.header-bar h {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#add-task {
+    text-decoration: none;
+    margin-top: 25px;
+    padding-right: 10px;
+
+
+}
+
+.form-body {
+    padding: 20px;
+}
+
+.form-search {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+
+.search-add-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 15px;
+
+}
+
+.button {
+    border: 1px solid #757575;
+    background-color: #469433;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.button-delete {
+    border: 1px solid #757575;
+    background-color: #c52525;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.button-search {
+    border-color: 2px solid #757575;
+    background: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png');
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 14.5px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border-width: 2px;
+    text-decoration: none;
+
+}
+
+input[type=text],
+input[type=password],
+textarea {
+    border: 2px solid #757575;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.input-search input[type=text],
+text {
+    border: 2px solid #757575;
+    border-radius: 5px;
+    width: 83%;
+
+
+}
+
+label {
+    padding-top: 10px !important;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+::placeholder {
+    font-weight: 300;
+    opacity: 0.5;
+    text-align: start;
+}
