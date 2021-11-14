@@ -134,8 +134,8 @@ STATIC_URL = '/static/'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 #STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'staticfiles'),
-                    os.path.join(BASE_DIR, 'base_app//static'))
+# STATICFILES_DIRS = (os.path.join(BASE_DIR, 'staticfiles'),
+# os.path.join(BASE_DIR, 'base_app//static'))
 
 
 # Default primary key field type
