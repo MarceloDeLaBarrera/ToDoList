@@ -4,7 +4,7 @@ _This is a simple To Do List app, where you can create your own account, and cre
 
 ## Table of contents
 - [Deploy](#Deploy-)
-- [Screenshots](#Screenshots-)
+- [Screenshot](#Screenshot-)
 - [Starting](#starting-)
 - [Requeriments](#requeriments-)
 - [Install and Run the project](#Install-and-Run-the-project-)
@@ -17,8 +17,8 @@ _This project was deployment on heroku. You can see it here:_
 
 - [To Do List](http://www.herokulink/)
 
-## Screenshots ⭐
-![image](https://user-images.githubusercontent.com/52224826/141663057-a131b031-912d-459f-8d9f-074f73e9231a.png)
+## Screenshot ⭐
+![image](https://user-images.githubusercontent.com/52224826/141669666-e0049886-046b-406d-ab14-792e33d315c3.png)
 
 
 ## Starting 🚀
