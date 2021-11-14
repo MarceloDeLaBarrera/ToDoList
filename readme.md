@@ -3,13 +3,23 @@
 _This is a simple To Do List app, where you can create your own account, and create some tasks, view her description, update whenever you want all the fields or mark the task as completed. Also, you can delete any task if you want._
 
 ## Table of contents
-
+- [Deploy](#Deploy-)
+- [Screenshots](#Screenshots-)
 - [Starting](#starting-)
 - [Requeriments](#requeriments-)
 - [Install and Run the project](#Install-and-Run-the-project-)
-- [Deploy](#Deploy-)
 - [Built in](#built-in-%EF%B8%8F)
 - [Autor](#autor-%EF%B8%8F)
+
+## Deploy 📦
+
+_This project was deployment on heroku. You can see it here:_
+
+- [To Do List](http://www.herokulink/)
+
+## Screenshots ⭐
+![image](https://user-images.githubusercontent.com/52224826/141663057-a131b031-912d-459f-8d9f-074f73e9231a.png)
+
 
 ## Starting 🚀
 
@@ -63,12 +73,6 @@ _4. Finally, run server on your local machine._
 ```
 python manage.py runserver
 ```
-
-## Deploy 📦
-
-_This project was deployment on heroku. You can see it here:_
-
-- [To Do List](http://www.herokulink/)
 
 ## Built in 🛠️
 
