@@ -18,7 +18,7 @@ _This project was deployment on heroku. You can see it here:_
 - [To Do List](http://www.herokulink/)
 
 ## Screenshot ⭐
-![image](https://user-images.githubusercontent.com/52224826/141669666-e0049886-046b-406d-ab14-792e33d315c3.png)
+![image](https://user-images.githubusercontent.com/52224826/141669727-2fd7a92f-c330-41ad-9f12-8835d65eae6f.png)
 
 
 ## Starting 🚀
