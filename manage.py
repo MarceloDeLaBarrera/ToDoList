@@ -8,9 +8,10 @@ from django.conf import settings
 
 def main():
     """Run administrative tasks."""
-    dotenv.read_dotenv()
+    if os.environ.get("DJANGO_SETTINGS_MODULE") == "ToDoList.settings.settings":
+        dotenv.read_dotenv()
     os.environ.setdefault('DJANGO_SETTINGS_MODULE',
-                          'ToDoList.settings.settings')
+                          'ToDoList.settings.production_settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
