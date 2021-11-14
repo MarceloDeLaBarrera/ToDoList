@@ -49,7 +49,7 @@ _1.- Create your own database file._
 
 _2.- To run the project, you have to create your own .env file to hidden your secret keys and DateBase connection._
 
-_Note: Put debug=1 on local, or 0 on production._
+_Note 1: Put debug=1 on local, or 0 on production._
 
 ```
 SECRET_KEY= <yoursecretkey>
@@ -62,10 +62,15 @@ HOST= 127.0.0.1
 DATABASE_PORT= 5432
 ```
 
-_3.- Then you can migrate the models and make migrations._
+_Note2: You can create aleatory secret keys with the following command:_
 
 ```
-python manage.py makemigrations
+python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
+```
+
+_3.- Migrate the model to database._
+
+```
 python manage.py migrate
 ```
 
