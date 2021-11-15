@@ -43,7 +43,7 @@ git push origin master
 ## Requeriments 📋
 
 _This project uses python 3.9.5, don't tested yet on other versions of python._
-_Also, you need to have installed Postgresql to make database connection._
+_Also, you need to have installed Postgresql to create your own database._
 
 _To install all dependencies necessary to run the project on your local development environment you need to use pip to install requeriments.txt_
 
@@ -57,7 +57,7 @@ _1.- Create your own database file._
 
 _2.- To run the project, you have to create your own .env file to hidden your secret keys and DateBase connection._
 
-_Note 1: Put debug=1 on local, or 0 on production._
+_Note 1: Put Debug_env=1 for debug=True._
 
 ```
 SECRET_KEY= <yoursecretkey>
@@ -68,6 +68,8 @@ USER= <youruser>
 PASSWORD= <yourpassword>
 HOST= 127.0.0.1
 DATABASE_PORT= 5432
+
+DJANGO_SETTINGS_MODULE=ToDoList.settings.settings
 ```
 
 _Note2: You can create aleatory secret keys with the following command:_
