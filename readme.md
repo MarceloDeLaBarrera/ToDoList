@@ -3,7 +3,7 @@
 _This is a simple To Do List app, where you can create your own account, and create some tasks, view her description, update whenever you want all the fields or mark the task as completed. Also, you can delete any task if you want._
 
 ## Table of contents
-- [Deploy](#Deploy-)
+- [Live Demo](#Live-Demo-)
 - [Screenshot](#Screenshot-)
 - [Starting](#starting-)
 - [Requeriments](#requeriments-)
@@ -11,7 +11,7 @@ _This is a simple To Do List app, where you can create your own account, and cre
 - [Built in](#built-in-%EF%B8%8F)
 - [Autor](#autor-%EF%B8%8F)
 
-## Deploy 📦
+## Live Demo 📦
 
 _This project was deployment on heroku. You can see it here:_
 
