@@ -27,8 +27,7 @@ SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
 DEBUG = str(os.environ.get('DEBUG')) == "0"
-ALLOWED_HOSTS = ['https://to-do-list-marcelo.herokuapp.com/',
-                 'to-do-list-marcelo.herokuapp.com']
+ALLOWED_HOSTS = ['to-do-list-marcelo.herokuapp.com']
 
 
 # Application definition
@@ -134,8 +133,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
-#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+#STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 #STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
 
