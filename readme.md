@@ -17,6 +17,14 @@ _This project was deployment on heroku. You can see it here:_
 
 - [To Do List](https://to-do-list-marcelo.herokuapp.com/)
 
+_Note: If you don't want register, you can test my app with this credentials:
+
+```
+Username: test-todolist
+Password: testmyapp123
+```
+
+
 ## Screenshot ⭐
 ![image](https://user-images.githubusercontent.com/52224826/141669727-2fd7a92f-c330-41ad-9f12-8835d65eae6f.png)
 
@@ -53,7 +61,7 @@ _Note 1: Put debug=1 on local, or 0 on production._
 
 ```
 SECRET_KEY= <yoursecretkey>
-DEBUG=1
+DEBUG_ENV=1
 
 DATABASE_NAME= <yourdatabase_name>
 USER= <youruser>
