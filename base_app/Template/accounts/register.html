@@ -17,15 +17,21 @@
     </div>
     <div class="class form-body">
         <form action="" method="POST">{% csrf_token %}
-            <label>{{form.username.label}}:</label>
-            {{form.username}}
-            <label>{{form.password1.label}}:</label>
-            {{form.password1}}
-            <label>{{form.password2.label}}:</label>
-            {{form.password2}}
+            {% for field in form %}
+            <p>
+                {{ field.label_tag }}<br>
+                {{ field }}
+                {% if field.help_text %}
+                <small style="color: grey; padding: 17px;">{{ field.help_text }}</small>
+                {% endif %}
+                {% for error in field.errors %}
+            <p style="color: red">{{ error }}</p>
+            {% endfor %}
+            </p>
+            {% endfor %}
 
-            <input style="margin-top: 15px;" type="submit" class="button" value="Register">
-            <p>Already have an account? <a href="{% url 'login' %}">Login</a></p>
+            <input style="margin-top: 17px;" type="submit" class="button" value="Register">
+            <p style="padding: 15px;">Already have an account? <a href="{% url 'login' %}">Login</a></p>
     </div>
     {% endblock %}
     </form>
