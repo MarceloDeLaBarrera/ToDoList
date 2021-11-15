@@ -8,7 +8,7 @@ import dotenv
 def main():
     """Run administrative tasks."""
     # if str(os.environ.get("DJANGO_SETTINGS_MODULE")) == "ToDoList.settings.settings":
-    dotenv.read_dotenv()
+    # dotenv.read_dotenv()
     os.environ.setdefault('DJANGO_SETTINGS_MODULE',
                           'ToDoList.settings.settings')
     try:
