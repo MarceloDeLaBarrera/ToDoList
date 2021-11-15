@@ -17,7 +17,7 @@ _This project was deployment on heroku. You can see it here:_
 
 - [To Do List](https://to-do-list-marcelo.herokuapp.com/)
 
-_Note: If you don't want register, you can test my app with this credentials:_
+_Note: If you don't want to register, you can test my app with this credentials:_
 
 ```
 Username: test-todolist
